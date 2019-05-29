@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dice Game</title>
+  <link href="dice.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <header id="title"><h1>Dice Game</h1></header>
+    <div id='human' class='playerArea'>
+      <h3>Human</h3>
+      <div id='humanDice'>
+      </div>
+      <p id='humanTotal' class='total'></p>
+    </div>
+    
+    <div id='computer' class='playerArea'>
+      <h3>Computer</h3>
+      <div id='computerDice'>
+      </div>
+      <p id='computerTotal' class='total'></p>
+    </div>
+    <div id = 'msg'><p></p> </div>
+
+    <div id='roll'>
+      <a href='#' onclick='play(); return false;'>Roll</a>
+    </div>
+    <script type='text/javascript' src='dice.js'></script>
+</body>
+</html>
